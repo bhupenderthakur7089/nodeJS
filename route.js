@@ -17,8 +17,8 @@ const requestHandler = (req, res) => {
         });
         return req.on('end', () => {
             const parseData = Buffer.concat(data).toString();
-            const message = parseData.split('=');
-            fs.writeFileSync('messages.txt', message[1]);
+            const message = parseData.split('=')[1];
+            fs.writeFileSync('messages.txt', message);
             res.statusCode = 302;
             res.setHeader('Location', '/');
             return res.end();
