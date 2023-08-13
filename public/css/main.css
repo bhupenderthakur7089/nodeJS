@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.mainHeader {
+    width: 100%;
+    height: 3.5rem;
+    padding: 0 1.5rem;
+    background-color: rgb(34, 201, 165);
+}
+
+.mainNav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mainList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.items {
+    margin: 0 1rem;
+    padding: 0;
+}
+
+.items a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.items a:hover,
+.items a:active,
+.items a.selected {
+    color: rgb(226, 43, 211);
+}
