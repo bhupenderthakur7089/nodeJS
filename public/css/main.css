@@ -29,12 +29,12 @@ body {
 }
 
 .items a {
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
 }
 
 .items a:hover,
 .items a:active,
 .items a.selected {
-    color: rgb(226, 43, 211);
+    color: whitesmoke;
 }
