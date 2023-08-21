@@ -1,1 +1,18 @@
-[{"productName":"book","productSize":"10"},{"productName":"cellPhone","productSize":"4"},{"productName":"paper","productSize":"1"}]
+[
+    {
+        "productName": "book",
+        "productSize": "10"
+    },
+    {
+        "productName": "cellPhone",
+        "productSize": "4"
+    },
+    {
+        "productName": "paper",
+        "productSize": "1"
+    },
+    {
+        "productName": "pencil",
+        "productSize": "2"
+    }
+]
